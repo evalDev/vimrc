@@ -24,6 +24,7 @@ filetype plugin indent on    " required
 "
 colorscheme paramount
 set background=light
-"
-"
+set relativenumber
+set expandtab
+set tabstop=2
 "
