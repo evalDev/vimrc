@@ -28,12 +28,20 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 "
 "
+"Theme
 colorscheme paramount
 set background=dark
+
+"Line Numbers are helpful
 set relativenumber
+
+"Tab's 2 Spaces
 set expandtab
 set tabstop=2
-"
+
+"Show Invisibles #http://vimcasts.org/episodes/show-invisibles/
+set list
+set listchars=tab:▸\ ,eol:¬
 "
 "Let JSHint Lint after saving
 let jshint2_save = 1
