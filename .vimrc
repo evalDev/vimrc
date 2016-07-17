@@ -8,7 +8,8 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-"
+" some sensible default settings
+Plugin 'tpope/vim-sensible'
 "
 "
 "
