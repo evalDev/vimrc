@@ -18,7 +18,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'Shutnik/jshint2.vim'
 "Emmet
 Plugin 'mattn/emmet-vim'
-"
+"Code Completion Engine
+Plugin 'valloric/youcompleteme'
 "
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -28,10 +29,11 @@ filetype plugin indent on    " required
 "
 "
 colorscheme paramount
-set background=light
+set background=dark
 set relativenumber
 set expandtab
 set tabstop=2
+"
 "
 "Let JSHint Lint after saving
 let jshint2_save = 1
