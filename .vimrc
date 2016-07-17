@@ -20,7 +20,8 @@ Plugin 'Shutnik/jshint2.vim'
 Plugin 'mattn/emmet-vim'
 "Code Completion Engine
 Plugin 'valloric/youcompleteme'
-"
+"I so missed autoclosing brackets
+Plugin 'Raimondi/delimitMate'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
