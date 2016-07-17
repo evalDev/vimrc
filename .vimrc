@@ -10,9 +10,14 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 " some sensible default settings
 Plugin 'tpope/vim-sensible'
-"
-"
-"
+"Status Bar
+Plugin 'itchyny/lightline.vim'
+"Modify Surronding character/tags/braces
+Plugin 'tpope/vim-surround'
+"JS Linting
+Plugin 'Shutnik/jshint2.vim'
+"Emmet
+Plugin 'mattn/emmet-vim'
 "
 "
 " All of your Plugins must be added before the following line
@@ -28,3 +33,5 @@ set relativenumber
 set expandtab
 set tabstop=2
 "
+"Let JSHint Lint after saving
+let jshint2_save = 1
