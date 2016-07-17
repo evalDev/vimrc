@@ -30,7 +30,7 @@ filetype plugin indent on    " required
 "
 "Theme
 colorscheme paramount
-set background=dark
+set background=light
 
 "Line Numbers are helpful
 set relativenumber
@@ -38,6 +38,7 @@ set relativenumber
 "Tab's 2 Spaces
 set expandtab
 set tabstop=2
+set shiftwidth=2
 
 "Show Invisibles #http://vimcasts.org/episodes/show-invisibles/
 set list
